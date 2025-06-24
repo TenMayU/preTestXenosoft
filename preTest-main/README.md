@@ -8,3 +8,14 @@ preTest Xenosoft
 
 Frontend Path: http://localhost:3000/
 Backend Path   http://localhost:8080/api
+
+
+หากไม่ได้ใช้ Docker
+
+1.cd ไปยัง frontend แล้วจึงติดตั้ง dependency ด้วย npm i
+2.ใช้คำสั่ง npm run dev
+3.cd ไปยัง backend แล้วจึงติดตั้ง dependency ด้วย go mod tidy
+4.ใช้คำสั่ง go run src/cmd/server/server.go
+
+Frontend Path: http://localhost:3000/
+Backend Path   http://localhost:8080/api
